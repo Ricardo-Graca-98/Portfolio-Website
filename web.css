@@ -1,16 +1,18 @@
 /* MAIN BODY */
 @font-face{
     font-family: myFont;
-    src: url(library_3_am_soft.otf);
+    src: url(library.otf);
 }
 body, html{
     height: 100%;
     margin: 0;
     color: gray;
+    background-color: black;
 }
-div{
-    /*display: block;*/
+.border{
+    display: block;
     font-family: myFont;
+    font-size: 24px;
 }
 
 /* SIDEBAR */
@@ -40,18 +42,23 @@ a:hover{
     background-color: white;
 }
 
-/* HOMEIMAGE */
+/* PARALLAX */
 .bgimg1, .bgimg2{
     position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: -10px;
+    opacity: 0.8;
+    margin-left: -10px;
 }
 .bgimg1{
-    background-image: url(80s-retro-background-11.jpg);
-    height: 500px;
+    background-image: url(images/home.jpg);
+    height: 400px;
+}
+.bgimg2{
+    background-image: url(images/contact.jpg);
+    height: 400px;
 }
 .caption{
     position: absolute;
