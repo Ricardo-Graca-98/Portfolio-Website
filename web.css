@@ -1,18 +1,25 @@
 /* MAIN BODY */
 @font-face{
     font-family: myFont;
-    src: url(library.otf);
+    src: url(fonts/library.otf);
 }
 body, html{
     height: 100%;
     margin: 0;
     color: gray;
     background-color: black;
+    font-family: sans-serif;
+    text-align: center;
 }
 .border{
     display: block;
     font-family: myFont;
     font-size: 24px;
+}
+.icon{
+    left: 30%;
+    width: 20%;
+    border-radius: 150px;
 }
 
 /* SIDEBAR */
