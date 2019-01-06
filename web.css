@@ -1,0 +1,38 @@
+/* MAIN BODY */
+body{
+    text-align: center;
+    align-content: center;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+/* SIDEBAR */
+#sidebar{
+}
+ul{
+    list-style-type: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    margin: 0px;
+    width: 100%;
+}
+li{
+    float: left;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: skyblue;
+    background-color: white;
+}
