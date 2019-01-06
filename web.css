@@ -50,7 +50,7 @@ a:hover{
 }
 
 /* PARALLAX */
-.bgimg1, .bgimg2{
+.bgimg1, .bgimg2, .bgimg3{
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -67,13 +67,22 @@ a:hover{
     background-image: url(images/contact.jpg);
     height: 400px;
 }
-.caption{
+.bgimg3{
+    background-image:url(images/code.jpg);
+    height: 400px;
+}
+.caption, .samplecaption{
     position: absolute;
     left: 0;
     top: 50%;
     width: 100%;
     text-align: center;
+}
+.caption{
     color: black;
+}
+.samplecaption{
+    color: white;
 }
 .caption.span.border{
     background-color: black;
