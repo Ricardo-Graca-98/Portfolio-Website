@@ -1,16 +1,16 @@
 /* MAIN BODY */
 @font-face{
     font-family: myFont;
-    src: url(Library 3 am soft.otf);
+    src: url(library_3_am_soft.otf);
 }
 body, html{
     height: 100%;
     margin: 0;
-    font-family: myFont;
     color: gray;
 }
 div{
-    display: block;
+    /*display: block;*/
+    font-family: myFont;
 }
 
 /* SIDEBAR */
@@ -27,8 +27,6 @@ ul{
 }
 li{
     float: left;
-    font-size: 15px;
-    font-family: sans-serif;
 }
 li a{
     display: block;
@@ -43,7 +41,7 @@ a:hover{
 }
 
 /* HOMEIMAGE */
-.bgimg1{
+.bgimg1, .bgimg2{
     position: relative;
     background-attachment: fixed;
     background-position: center;
