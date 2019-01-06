@@ -33,6 +33,17 @@ li a{
     
 }
 a:hover{
-    color: skyblue;
+    color: black;
     background-color: white;
+}
+
+/* HOMEIMAGE */
+#homeimg{
+    opacity: 1;
+    top:50px;
+    left: 50px;
+    display: block;
+    width: 1200px;
+    height: 500px;
+    margin-left: -10px;
 }
