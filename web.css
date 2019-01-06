@@ -1,12 +1,8 @@
 /* MAIN BODY */
-@font-face{
-    font-family: myFont;
-    src: url(Library 3 am soft.otf);
-}
-body, html{
+body{
     height: 100%;
     margin: 0;
-    font-family: myFont;
+    font: 400, 15px, "Lato", sans-serif;
     color: gray;
 }
 div{
