@@ -41,7 +41,7 @@ a:hover{
 }
 
 /* HOMEIMAGE */
-.bgimg1, .bgimg2, .bgimg3{
+.bgimg1, .bgimg2{
     position: relative;
     background-attachment: fixed;
     background-position: center;
