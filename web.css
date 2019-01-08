@@ -105,7 +105,17 @@ span.border{
 }
 
 /* WORK ICONS */
-.image{
-    width: 20%;
-    margin: 15px;
+.icons{
 }
+
+.icon1{position:relative;width:30%;margin: 2%;}
+.image1{opacity: 1;width: 100%;transition: .5s ease;backface-visibility: hidden;}
+.overlay1{transition: .5s ease;opacity: 0;position: absolute;margin: 46%;text-align: center;}
+.icon1:hover .image1 {opacity: 0.4;}
+.icon1:hover .overlay1 {opacity: 1;}
+
+.icon2{position: relative;width: 30%;margin: 2%;}
+.image2{opacity: 1;width: 100%;transition: .5s ease;backface-visibility: hidden;}
+.overlay2{transition: .5s ease;opacity: 0;position: absolute;margin: 46%;text-align: center;}
+.icon2:hover .image2 {opacity: 0.4;}
+.icon2:hover .overlay2 {opacity: 1;}
