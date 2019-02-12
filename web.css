@@ -136,3 +136,10 @@ span.border{
 .icon3:hover #text3{display: block;}
 #text4{display: none;}
 .icon4:hover #text4{display: block;}
+
+
+/*SAMPLE PAGE*/
+#date
+{
+    font-size: 15px;
+}
