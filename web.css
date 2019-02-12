@@ -7,7 +7,7 @@ body, html{
     height: 100%;
     margin: 0;
     color: gray;
-    background-color: black;
+    background-color: white;
     font-family: sans-serif;
     text-align: center;
 }
@@ -109,10 +109,10 @@ span.border{
     list-style-type: none;
 }
 #icons li{
-    width: 32%;
-    height: 32%;
-    padding-top: 32%;
-    margin: 0% 0.5% 1%;
+    width: 25%;
+    height: 25%;
+    padding-top: 25%;
+    margin: 1%;
     float: left;
     box-sizing: border-box;
     background-position: center center;
@@ -120,7 +120,7 @@ span.border{
     position: relative;
     transition: all .3s ease;
 }
-#icons li .text1{
+#icons li .text{
     color: #FFF;
     text-decoration: none;
     width: 100%;
@@ -131,8 +131,8 @@ span.border{
     left: 0;
     transition: all .3s ease;
 }
-.icon1:hover .image2 {opacity: 0.4;}
-.icon1:hover .overlay1 {opacity: 1;}
+#text1{display: none;}
+.icon1:hover #text1{display: block;}
 .icon2:hover .image2 {opacity: 0.4;}
 .icon2:hover .overlay2 {opacity: 1;}
 .icon3:hover .image3 {opacity: 0.4;}
