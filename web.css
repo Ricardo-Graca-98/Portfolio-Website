@@ -105,26 +105,33 @@ span.border{
 }
 
 /* WORK ICONS */
-.icons{    
+#icons ul{    
     list-style-type: none;
 }
-.icon1{
+#icons li{
+    width: 32%;
+    height: 32%;
+    padding-top: 32%;
+    margin: 0% 0.5% 1%;
+    float: left;
+    box-sizing: border-box;
+    background-position: center center;
+    background-size: 100%;
     position: relative;
+    transition: all .3s ease;
 }
-.image1{
-  width: 100%;
-  height: auto;
-}
-.overlay1{
-    position: absolute;
+#icons li .text1{
+    color: #FFF;
+    text-decoration: none;
     width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .3s ease;
 }
-/*
-.icon1, .icon2, .icon3, .icon4, .icon5{width:32%;height: 32%; margin: 2%; float: left; background-position: center; background-size: 100%; position: relative;}
-.image1, .image2, .image3, .image4, .image5{opacity: 1;width: 20%; height: 20%; transition: .5s ease;backface-visibility: hidden;}
-.overlay1, .overlay2, .overlay3, .overlay4, .overlay5{transition: .5s ease;opacity: 0;}
-*/
-.icon1:hover .image1 {opacity: 0.4;}
+.icon1:hover .image2 {opacity: 0.4;}
 .icon1:hover .overlay1 {opacity: 1;}
 .icon2:hover .image2 {opacity: 0.4;}
 .icon2:hover .overlay2 {opacity: 1;}
