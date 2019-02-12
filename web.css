@@ -26,9 +26,8 @@ h3{
 }
 
 /* SIDEBAR */
-#sidebar{
-}
-ul{
+
+.sidebarlist{
     list-style-type: none;
     position: fixed;
     top: 0px;
@@ -37,7 +36,7 @@ ul{
     margin: 0px;
     width: 100%;
 }
-li{
+.sidebar{
     float: left;
 }
 li a{
@@ -51,6 +50,7 @@ a:hover{
     color: black;
     background-color: white;
 }
+
 
 /* PARALLAX */
 .bgimg1, .bgimg2, .bgimg3{
@@ -105,17 +105,32 @@ span.border{
 }
 
 /* WORK ICONS */
-.icons{
+.icons{    
+    list-style-type: none;
 }
-
-.icon1{position:relative;width:30%;margin: 2%;}
-.image1{opacity: 1;width: 100%;transition: .5s ease;backface-visibility: hidden;}
-.overlay1{transition: .5s ease;opacity: 0;position: absolute;margin: 46%;text-align: center;}
+.icon1{
+    position: relative;
+}
+.image1{
+  width: 100%;
+  height: auto;
+}
+.overlay1{
+    position: absolute;
+    width: 100%;
+}
+/*
+.icon1, .icon2, .icon3, .icon4, .icon5{width:32%;height: 32%; margin: 2%; float: left; background-position: center; background-size: 100%; position: relative;}
+.image1, .image2, .image3, .image4, .image5{opacity: 1;width: 20%; height: 20%; transition: .5s ease;backface-visibility: hidden;}
+.overlay1, .overlay2, .overlay3, .overlay4, .overlay5{transition: .5s ease;opacity: 0;}
+*/
 .icon1:hover .image1 {opacity: 0.4;}
 .icon1:hover .overlay1 {opacity: 1;}
-
-.icon2{position: relative;width: 30%;margin: 2%;}
-.image2{opacity: 1;width: 100%;transition: .5s ease;backface-visibility: hidden;}
-.overlay2{transition: .5s ease;opacity: 0;position: absolute;margin: 46%;text-align: center;}
 .icon2:hover .image2 {opacity: 0.4;}
 .icon2:hover .overlay2 {opacity: 1;}
+.icon3:hover .image3 {opacity: 0.4;}
+.icon3:hover .overlay3 {opacity: 1;}
+.icon4:hover .image4 {opacity: 0.4;}
+.icon4:hover .overlay4 {opacity: 1;}
+.icon5:hover .image5 {opacity: 0.4;}
+.icon5:hover .overlay5 {opacity: 1;}
