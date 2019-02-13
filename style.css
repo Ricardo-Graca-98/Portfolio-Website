@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+h1{
+    color: white;
+    font-style: italic;
+}
+
+/* SIDEBAR */
+.sidebar{
+    position: fixed;
+}
+.sidebar li{
+    color: white;
+}
