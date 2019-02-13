@@ -1,10 +1,18 @@
+@font-face{
+    font-family: myFont;
+    src: url(assets/fonts/library.otf);
+}
 body{
     background-color: black;
     font-family: sans-serif;
 }
 h1{
     color: white;
-    font-style: italic;
+    font-family: myFont;
+}
+#title{
+    padding-left: 3%;
+    padding-top: 5%;
 }
 
 /* SIDEBAR */
