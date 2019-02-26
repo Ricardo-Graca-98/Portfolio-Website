@@ -4,21 +4,54 @@
 }
 body{
     background-color: black;
-    font-family: sans-serif;
+    font-family: "Arial", sans-serif;
 }
 h1{
-    color: white;
+    color: gainsboro;
     font-family: myFont;
 }
-#title{
-    padding-left: 3%;
-    padding-top: 5%;
+img{
+    position: absolute;
 }
+/* TITLE */
+#title{
+    padding-top: 3%;
+    width: 97%;
+}
+#img1{
+    padding-left: 25%;
+    padding-top: 27%;
+    width: 30%;
+}
+#img2{
+    padding-left: 55%;
+    padding-top: 27%;
+    width: 30%;
+}
+#d1{
+    width: 100%;
+    padding-top: 39%;
+    stroke: #8b001f;
+    stroke-width: 4;
+}
+/* ABOUT */
 
 /* SIDEBAR */
 .sidebar{
     position: fixed;
+    top: 15%;
+    border: 1px solid #ababa6;
+    padding-right: 2%;
 }
 .sidebar li{
-    color: white;
+    padding: 15% 0%;
+}
+.sidebar a{
+    color: #ababa6;
+    font-style: italic;
+    font-size: 14px;
+}
+.sidebar a:hover{
+    color: #8b001f;
+    font-size: 15px;
 }
