@@ -8,7 +8,11 @@ body{
 }
 h1{
     color: gainsboro;
-    font-family: myFont;
+    font-family: sans-serif;
+}
+p{
+    color:white;
+    font-size: 1vw;
 }
 img{
     position: absolute;
@@ -18,28 +22,53 @@ img{
     padding-top: 3%;
     width: 97%;
 }
+#img1, #img2, #img3, #img4, #img5{
+    width: 30%;
+}
 #img1{
     padding-left: 25%;
     padding-top: 27%;
-    width: 30%;
 }
 #img2{
     padding-left: 55%;
     padding-top: 27%;
-    width: 30%;
 }
-#d1{
+#d1, #d2, #d3{
     width: 100%;
-    padding-top: 39%;
+    margin-top: 39%;
     stroke: #8b001f;
     stroke-width: 4;
 }
 /* ABOUT */
-
+#about-sec{
+    font-size: 2vw;
+    margin-left: 5%;
+}
+#about-txt{
+    margin-left: 10%;
+    margin-right: 40%;
+}
+#img3{
+    margin-left: 60%;
+}
+#img4{
+    margin-top: 8%;
+    margin-left: 30%;
+}
+#img5{
+    margin-top: 13%;
+}
+/* CONTACT */
+.contact{
+    width: 38%; 
+    position: absolute; 
+    border: solid 1px white; 
+    padding: 2% 5%;"
+}
 /* SIDEBAR */
 .sidebar{
     position: fixed;
-    top: 15%;
+    top: 0%;
     border: 1px solid #ababa6;
     padding-right: 2%;
 }
@@ -49,9 +78,9 @@ img{
 .sidebar a{
     color: #ababa6;
     font-style: italic;
-    font-size: 14px;
+    font-size: 1.2vw;
 }
 .sidebar a:hover{
     color: #8b001f;
-    font-size: 15px;
+    font-size: 1.3vw;
 }
